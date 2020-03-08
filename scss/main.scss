@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 450px;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(ellipse farthest-corner at center top, #f39264 0%, #f2606f 100%);
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/*--------------------
+ToDo List
+--------------------*/
+.todoList {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 550px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+}
+
+.cover-img {
+
+  .cover-inner {
+    background: url('../images/background.jpg');
+    height: 200px;
+    background-size: cover;
+    background-position: 10% 20%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+
+    &::after {
+      background: rgba(0, 0, 0, 0.3);
+      content: "";
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Nunito', sans-serif;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      z-index: 10;
+    }
+  }
+}

@@ -81,25 +81,17 @@ textarea {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    border-bottom: 1px solid #8e979c;
+    padding: 0 10px 0 5px; }
   .content form > * {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #8e979c;
     height: 35px; }
   .content input[type=text] {
-    -ms-flex-preferred-size: 89%;
-    flex-basis: 89%;
-    padding: 0 5px;
     font-weight: 700;
     font-size: 1.2rem;
     color: #6C717B; }
-  .content .input-buttons {
-    border-bottom: 1px solid #8e979c;
-    -ms-flex-preferred-size: 11%;
-    flex-basis: 11%;
-    padding: 5px 10px;
-    text-align: center; }
   .content .input-buttons a {
     text-decoration: none; }
   .content .input-buttons i {

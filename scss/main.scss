@@ -85,28 +85,20 @@ textarea {
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    border-bottom: 1px solid #8e979c;
+    padding: 0 10px 0 5px;
   }
 
   form>* {
     background: transparent;
     border: none;
-    border-bottom: 1px solid #8e979c;
     height: 35px;
   }
 
   input[type=text] {
-    flex-basis: 89%;
-    padding: 0 5px;
     font-weight: 700;
     font-size: 1.2rem;
     color: #6C717B;
-  }
-
-  .input-buttons {
-    border-bottom: 1px solid #8e979c;
-    flex-basis: 11%;
-    padding: 5px 10px;
-    text-align: center;
   }
 
   .input-buttons a {

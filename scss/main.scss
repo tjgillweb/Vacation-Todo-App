@@ -105,15 +105,15 @@ textarea {
   .input-buttons {
     border-bottom: 1px solid #8e979c;
     flex-basis: 11%;
+    padding: 5px 10px;
+    text-align: center;
   }
 
   .input-buttons a {
-    padding: 0 0 0 5px;
     text-decoration: none;
   }
 
   .input-buttons i {
-    margin-top: 5px;
     font-size: 20px;
     color: #8e979c;
   }

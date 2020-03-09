@@ -97,12 +97,12 @@ textarea {
   .content .input-buttons {
     border-bottom: 1px solid #8e979c;
     -ms-flex-preferred-size: 11%;
-    flex-basis: 11%; }
+    flex-basis: 11%;
+    padding: 5px 10px;
+    text-align: center; }
   .content .input-buttons a {
-    padding: 0 0 0 5px;
     text-decoration: none; }
   .content .input-buttons i {
-    margin-top: 5px;
     font-size: 20px;
     color: #8e979c; }
   .content ul.todos {

@@ -99,7 +99,7 @@ textarea {
     -ms-flex-preferred-size: 11%;
     flex-basis: 11%; }
   .content .input-buttons a {
-    padding: 0 0 0 10px;
+    padding: 0 0 0 5px;
     text-decoration: none; }
   .content .input-buttons i {
     margin-top: 5px;

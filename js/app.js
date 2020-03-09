@@ -29,3 +29,11 @@ function addTodos(e) {
 //add todos
 submitForm.addEventListener('submit', addTodos);
 addButton.addEventListener('click', addTodos);
+
+function deleteTodos(e) {
+    if (e.target.classList.contains('delete')) {
+        e.target.parentElement.remove();
+    }
+}
+//delete todos
+todoList.addEventListener('click', deleteTodos);
